@@ -1,0 +1,14 @@
+{
+    "name":"node-service",
+    "version": "1.0.0",
+    "description": "Node.js microservice for API Gateway",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "redis": "^3.1.2",
+        "express-rate-limit": "^5.0.1",
+        "rate-limit-redis": "^1.7.0"    }
+}
